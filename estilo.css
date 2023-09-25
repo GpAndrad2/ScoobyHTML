@@ -9,12 +9,12 @@ body {
 
 /* Estilização do Header da página */
 header {
-    background-color: #078fff;
+    background-color: #000000;
 }
 
 /* Estilização do Logotipo */
 .logo {
-    width: 50%;
+    width: 30%;
 }
 
 /* Estilização do menu */
@@ -22,6 +22,8 @@ nav {
     right: 0;
     position: absolute;
     top: 100px;
+    color: #ffffff;
+
 }
 
 nav li {
@@ -31,14 +33,14 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #f84600(150, 121, 252);
+    color: #ffffff(150, 121, 252);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: rgb(246, 249, 255);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 
@@ -64,13 +66,15 @@ nav a:hover {
     font-size: 40px;
     margin: 0;
     padding: 10px;
+    color: #ffffff;
 }
 .area-pizza{
     width: 100%;
     text-align: justify;
     margin: 0;
-    background-color: #395bf3;
+    background-color: #000000;
     padding: 0 0 10px 0;
+    color: #ffffff;
 }
 /*Titulos - Padrão*/
 .titulo-padrao{
@@ -78,13 +82,15 @@ nav a:hover {
     margin: 0;
     clear: left;
     text-align: center;
+    color: #000000;
 }
 /*Estilização da sessão nosso estabelecimento (mapa)*/
 .mapa{
-    background: linear-gradient(#395bf3, #ffffff);
+    background: linear-gradient(#000000, #000000);
 }
 .mapa p{
     text-align: center;
+    color: #ffffff;
 }
 .mapa iframe{
     margin: auto;
@@ -99,14 +105,16 @@ nav a:hover {
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
+    color: #000000;
 }
 .lista-beneficios{
     width: 20%;
     display: inline-block;
     vertical-align: top;
-    list-style: "🐵";
+    list-style: "🏎️";
     padding-left: 35%;
     margin-top: 30px;
+    color: #000000;
 }
 .itens{
     line-height: 1.5;
@@ -119,7 +127,7 @@ nav a:hover {
 }
 .img_beneficios{
     width: 10%;
-    box-shadow: 10px 10px 5px 8px rgb(238, 255, 0);
+    box-shadow: 10px 10px 5px 8px rgb(7, 7, 7);
     opacity: 1;
     transition: 400ms;
 }
@@ -142,5 +150,5 @@ footer{
     margin: 20px;
 }
 .logo_footer{
-    width: 20%;
+    width: 10%;
 }
