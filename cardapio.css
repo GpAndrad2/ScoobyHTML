@@ -3,52 +3,99 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-/* Estilizando o cabeçalho */
-header {
+  }
+  
+  /* Estilizando o cabeçalho */
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2a2a2a;
     padding: 10px;
-}
-
-.logo {
+  }
+  
+  .logo {
     width: 100px;
     height: auto;
-}
-
-/* Estilizando o menu de navegação, se houver */
-
-/* Estilizando os produtos */
-.product {
+  }
+  
+  /* Estilizando o menu de navegação, se houver */
+  
+  /* Estilizando os produtos */
+  .product {
     background-color: #fff;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.product img {
+    position: relative;
+  }
+  
+  .product img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.product h2 {
+    transition: transform 0.3s ease-out; /* Adicionando transição suave */
+  }
+  
+  /* Quando o mouse passa por cima, a imagem é reduzida */
+  .product:hover img {
+    transform: scale(0.9);
+  }
+  
+  .product .description {
+    display: none; /* Esconde a descrição inicialmente */
+  }
+  
+  .product h2 {
     font-size: 1.5em;
     margin-top: 10px;
-}
-
-.product p {
+  }
+  
+  .product:hover .description {
+    display: block; /* Mostra a descrição quando o mouse passa por cima */
+  }
+  
+  .product p {
     font-size: 1em;
     color: #333;
-}
-
-.product .price {
+  }
+  
+  .product .price {
     display: block;
     margin-top: 10px;
     font-size: 1.2em;
     color: #ff6600;
-}
+  }
+  
+  /* Adicionando estilos para o cardápio com quadrados */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .menu .product {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .menu .product img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .menu .product h2 {
+    margin-top: 10px;
+  }
+  
+  .menu .product p {
+    font-size: 14px;
+  }
+  
+  .menu .product .price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
