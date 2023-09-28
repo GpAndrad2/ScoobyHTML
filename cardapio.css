@@ -1,130 +1,130 @@
-/* Navigation Styles */
+/* Estilos de Navegação */
 nav {
-  right: 0;
-  position: absolute;
-  top: 100px;
-  color: #ffffff;
+  right: 0; /* direita: 0 */
+  position: absolute; /* posição: absoluta */
+  top: 100px; /* topo: 100px */
+  color: #ffffff; /* cor: #ffffff */
 }
 
 nav li {
-  display: inline;
-  margin: 0 15px 0 0;
+  display: inline; /* exibição: inline */
+  margin: 0 15px 0 0; /* margem: 0 15px 0 0 */
 }
 
 nav a {
-  text-transform: uppercase;
-  color: #529cf1;
-  font-weight: bold;
-  font-size: 22px;
-  text-decoration: none;
+  text-transform: uppercase; /* transformação de texto: maiúsculas */
+  color: #529cf1; /* cor: #529cf1 */
+  font-weight: bold; /* peso da fonte: negrito */
+  font-size: 22px; /* tamanho da fonte: 22px */
+  text-decoration: none; /* decoração do texto: nenhum */
 }
 
 nav a:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
+  color: rgb(255, 255, 255); /* cor ao passar o mouse: rgb(255, 255, 255) */
+  text-decoration: underline; /* decoração do texto ao passar o mouse: sublinhado */
 }
 
-/* Body and Font Styles */
+/* Estilos do Corpo e da Fonte */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  border: 0;
+  font-family: Arial, sans-serif; /* família da fonte: Arial, sem serifa */
+  margin: 0; /* margem: 0 */
+  padding: 0; /* preenchimento: 0 */
+  border: 0; /* borda: 0 */
 }
 
-/* Header Styles */
+/* Estilos do Cabeçalho */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #2a2a2a;
-  padding: 10px;
+  display: flex; /* exibição: flexível */
+  justify-content: space-between; /* justificação do conteúdo: espaço entre */
+  align-items: center; /* alinhamento dos itens: centralizado */
+  background-color: #2a2a2a; /* cor do fundo: #2a2a2a */
+  padding: 10px; /* preenchimento: 10px */
 }
 
 .logo {
-  width: 30%;
-  height: auto;
-  position: relative;
-  margin: auto;
+  width: 30%; /* largura: 30% */
+  height: auto; /* altura: automática */
+  position: relative; /* posição: relativa */
+  margin: auto; /* margem: automático */
 }
 .logo_caixa {
-  width: 940px;
-  position: relative;
-  margin: auto;
+  width: 940px; /* largura: 940px */
+  position: relative; /* posição: relativa */
+  margin: auto; /* margem: automático */
 }
-/* Product Styles */
+/* Estilos do Produto */
 .product {
-  background-color: #fff;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: relative;
+  background-color: #fff; /* cor do fundo: #fff */
+  margin: 20px; /* margem: 20px */
+  padding: 20px; /* preenchimento: 20px */
+  border-radius: 10px; /* raio da borda: 10px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra da caixa: 0 0 10px rgba(0, 0, 0, 0.1) */
+  position: relative; /* posição: relativa */
 }
 
 .product img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s ease-out;
+  max-width: 100%; /* largura máxima: 100% */
+  height: auto; /* altura: automática */
+  border-radius: 10px; /* raio da borda: 10px */
+  transition: transform 0.3s ease-out; /* transição: transformar 0.3s ease-out */
 }
 
 .product:hover img {
-  transform: scale(0.9);
+  transform: scale(0.9); /* transformação ao passar o mouse: escala(0.9) */
 }
 
 .product .description {
-  display: none;
+  display: none; /* exibição: nenhum */
 }
 
 .product h2 {
-  font-size: 1.5em;
-  margin-top: 10px;
+  font-size: 1.5em; /* tamanho da fonte: 1.5em */
+  margin-top: 10px; /* margem superior: 10px */
 }
 
 .product:hover .description {
-  display: block;
+  display: block; /* exibição: bloco */
 }
 
 .product p {
-  font-size: 1em;
-  color: #333;
+  font-size: 1em; /* tamanho da fonte: 1em */
+  color: #333; 
 }
 
 .product .price {
-  display: block;
-  margin-top: 10px;
-  font-size: 1.2em;
-  color: #ff6600;
+  display: block; /* exibição: bloco */
+  margin-top: 10px; /* margem superior: 10px */
+  font-size: 1.2em; /* tamanho da fonte: 1.2em */
+  color: #ff6600; 
 }
 
-/* Menu Styles */
+/* Estilos do Menu */
 .menu {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
+  display: flex; /* exibição: flexível */
+  flex-wrap: wrap; /* flexível: embrulhar */
+  padding: 20px; /* preenchimento: 20px */
 }
 
 .menu .product {
-  width: 200px;
-  text-align: center;
+  width: 200px; /* largura: 200px */
+  text-align: center; /* alinhamento do texto: centralizado */
 }
 
 .menu .product img {
-  width: 100%;
-  border-radius: 10px;
+  width: 100%; /* largura: 100% */
+  border-radius: 10px; /* raio da borda: 10px */
 }
 
 .menu .product h2 {
-  margin-top: 10px;
+  margin-top: 10px; /* margem superior: 10px */
 }
 
 .menu .product p {
-  font-size: 14px;
+  font-size: 14px; /* tamanho da fonte: 14px */
 }
 
 .menu .product .price {
-  display: block;
-  margin-top: 10px;
-  font-weight: bold;
+  display: block; /* exibição: bloco */
+  margin-top: 10px; /* margem superior: 10px */
+  font-weight: bold; /* peso da fonte: negrito */
 }
