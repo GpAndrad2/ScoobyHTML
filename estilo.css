@@ -15,6 +15,9 @@ header {
 /* Estilização do Logotipo */
 .logo {
     width: 30%;
+    height: auto;
+    position: relative;
+    margin: auto;
 }
 
 /* Estilização do menu */
@@ -33,7 +36,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #ffffff(150, 121, 252);
+    color: #529cf1;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -56,7 +59,7 @@ nav a:hover {
 }
 /*Estilização da sessão sobre a pizzaria do seu pizza*/
 .pizza{
-    width: 100px;
+    width: 150px;
     float: left; 
     margin: 0 20px; 
 }
@@ -99,7 +102,6 @@ nav a:hover {
 /*Estilização da sessão Beneficios*/
 .beneficios{
     background-color: #ffffff;
-
 }
 .conteudo_beneficios{
     width: 100%;

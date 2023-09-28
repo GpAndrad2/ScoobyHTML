@@ -13,7 +13,7 @@ nav li {
 
 nav a {
   text-transform: uppercase;
-  color: #ffffff;
+  color: #529cf1;
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
@@ -29,6 +29,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 /* Header Styles */
@@ -41,10 +42,16 @@ header {
 }
 
 .logo {
-  width: 100px;
+  width: 30%;
   height: auto;
+  position: relative;
+  margin: auto;
 }
-
+.logo_caixa {
+  width: 940px;
+  position: relative;
+  margin: auto;
+}
 /* Product Styles */
 .product {
   background-color: #fff;
