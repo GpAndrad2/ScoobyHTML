@@ -128,3 +128,17 @@ header {
   margin-top: 10px; /* margem superior: 10px */
   font-weight: bold; /* peso da fonte: negrito */
 }
+footer{
+  text-align: center;
+  background: url("");
+  padding: 40px;
+  background-color: #000000;
+}
+.copyright{
+  color: white;
+  font-size: 12px;
+  margin: 5px;
+}
+.logo_footer{
+  width: 10%;
+}
